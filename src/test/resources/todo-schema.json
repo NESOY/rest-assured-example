@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Todo set",
+  "type": "array",
+  "items": {
+    "title": "Todo",
+    "type": "object",
+    "properties": {
+      "userId": {
+        "description": "Todo의 유저 아이디",
+        "type": "number",
+        "minimum": 0
+      },
+      "id": {
+        "description": "Todo 아이디",
+        "type": "number",
+        "minimum": 0
+      },
+      "title": {
+        "type": "string"
+      },
+      "completed": {
+        "type": "boolean"
+      }
+    },
+    "required": ["userId", "id", "title"]
+  }
+}

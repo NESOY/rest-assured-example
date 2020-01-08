@@ -48,3 +48,5 @@ testImplementation 'io.rest-assured:spring-mock-mvc:4.1.2'
 #### Reference
 - <https://www.slideshare.net/ssuser59a869/ksug-2019>
 - <https://martinfowler.com/articles/practical-test-pyramid.html>
+- <http://woowabros.github.io/experience/2018/12/28/spring-rest-docs.html>
+- <https://github.com/spring-projects/spring-restdocs>

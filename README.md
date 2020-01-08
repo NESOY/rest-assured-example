@@ -1,6 +1,6 @@
 ## Rest-assured
 #### Bookmark
-- <https://github.com/rest-assured/rest-assured/wiki/Usage#getting-response-data>
+- <https://github.com/rest-assured/rest-assured/wiki/Usage#authentication>
 
 #### [Getting Started](https://github.com/rest-assured/rest-assured/wiki/GettingStarted)
 - maven 

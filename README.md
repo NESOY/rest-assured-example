@@ -1,6 +1,6 @@
 ## Rest-assured
 #### Bookmark
-- <https://github.com/rest-assured/rest-assured/wiki/Usage#authentication>
+- <https://github.com/rest-assured/rest-assured/wiki/Usage#session-support>
 
 #### [Getting Started](https://github.com/rest-assured/rest-assured/wiki/GettingStarted)
 - maven 

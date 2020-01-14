@@ -19,6 +19,7 @@ import io.restassured.response.Response;
 import java.util.List;
 import java.util.Map;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
@@ -72,6 +73,7 @@ public class HttpItemTest {
         }
 
         @Test
+        @Disabled("No Mock Server")
         @DisplayName("Header 검증하는 방법")
         void headerassertTest() {
             get(MOCK_JSON_SERVER).
@@ -125,6 +127,7 @@ public class HttpItemTest {
          */
 
         @Test
+        @Disabled("No Mock Server")
         @DisplayName("쿠키를 설정하는 방법도 있다")
         void settingCookie() {
             Cookie cookie1 = new Cookie.Builder("username", "John").setComment("comment 1").build();
@@ -141,6 +144,7 @@ public class HttpItemTest {
         }
 
         @Test
+        @Disabled("No Mock Server")
         @DisplayName("쿠키 검증하는 방법")
         void cookieAssertTest() {
             get(MOCK_JSON_SERVER).
